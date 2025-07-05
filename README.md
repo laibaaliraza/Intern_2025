@@ -1,6 +1,6 @@
 # Intern_2025
-Week 01
-Week 01 What I Have Learned So Far
+Week 01</br>
+What I Have Learned So Far
 
 -> Linux Shell Basics
 date, ls, cd, pwd, mkdir, rm, touch, cat, more, nano, less, sort, grep, vi 
