@@ -35,7 +35,7 @@ then
 fi
 
 #it read one line, gets the file name from grep and add it in files
-while IFS=read -r line;
+while IFS= read -r line;
 do
    file=$(echo "$line" | cut -d: -f1)
    files+=("$file")
