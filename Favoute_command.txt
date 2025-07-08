@@ -1,0 +1,8 @@
+Favorite Linux Command:</br> 
+I particularly enjoyed working with Bash scripting, especially using control structures like `if`, `while`, `until`, and `for`. These commands were intuitive and easy to relate to from other programming concepts, which made scripting more enjoyable and logical to understand.</br> 
+</br> 
+GitHub Repository: </br> 
+[https://github.com/laibaaliraza/Intern_2025](https://github.com/laibaaliraza/Intern_2025)
+</br> 
+This project helped me gain hands-on experience with Linux command-line tools, Bash scripting, and Git version control. I learned how to automate file search and backup operations, manage logs, and structure a clean repository.
+</br> 
