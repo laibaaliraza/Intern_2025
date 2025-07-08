@@ -1,15 +1,15 @@
-Intern_2025
-Week 01 project
-This is BASH Script that:
-->Search for keyword in files.
-->Logs tha result.
-->Create backup of matched files.
+Intern_2025</br> 
+Week 01 project</br> 
+This is BASH Script that:</br> 
+->Search for keyword in files.</br> 
+->Logs tha result.</br> 
+->Create backup of matched files.</br> 
 
-Working:
-->Search for keyword.
-->show file name that matches.
-->create zip file of match files.
-->Log all actions.
+Working:</br> 
+->Search for keyword.</br> 
+->show file name that matches.</br> 
+->create zip file of match files.</br> 
+->Log all actions.</br> 
 
-Folder/Directory:
-->./search-backup.sh /home/laiba/file-manager "error"
+Folder/Directory:</br> 
+->./search-backup.sh /home/laiba/file-manager "error"</br> 
