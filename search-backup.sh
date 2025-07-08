@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if[ "$#" -ne 2 ];
+if [ "$#" -ne 2 ];
 then
     echo "Please use the format: ./search-backup.sh /folder 'word-to-search'
 "
@@ -22,7 +22,7 @@ echo "Searching for keyword\"$keyword\"in directory\"$dir\"/home/laiba/Documents
 #put error in /div/null file
 word-match=$(grep -rnw "$dir" -e "$keyword" 2>/dev/null)
 
-if[ -z "$word_match" ];then
+if [ -z "$word_match" ]; then
 echo "No matches found."
 echo "#time | search: 0 files matched keyword \"$keyword\"" >>"$log_file"
 exit 0
