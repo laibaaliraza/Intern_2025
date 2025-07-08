@@ -13,18 +13,18 @@ keyword="$2"    #second argument
 log_file="log/log_actions.log"
 #log_file stores,search and backup all activities
 
+mkdir -p log
+
 time=$(date +"%Y-%m-%d %H:%M:%S")
 #format to get current date or time
 
 files=()     #empty array
 
 #print that it search for the given word in given directory
-echo "searching for Keyword \"$keyword\" in directory\ "$dir\""
-
+echo "searching for Keyword \"$keyword\" in directory \"$dir\""
 
 #search the given word in given directory and hide if any error happens
 word_match=$(grep -rnw "$dir" -e "$keyword" 2>/dev/null)
-
 
 #if no match is found then exit and log the result
 if [ -z "$word_match" ]
@@ -48,7 +48,7 @@ unique_files=($(echo "${files[@]}" | tr ' ' '\n' | sort -u))
 echo "$time | Search: ${#unique_files[@]} files matches keyword \"$keyword\"" >> "$log_file"
 
 #print matched word
-echo"$word_match"
+echo "$word_match"
 
 #make unique name
 archive_name="archive_$(date +"%Y%m%d_%H%M%S").tar.gz"
@@ -62,9 +62,3 @@ echo "$time | archived ${#unique_files[@]} files to $archive_name" >> "$log_file
 
 #print backup done
 echo "Backup done successfully: $archive_name"
-
-
-
-
-
-
