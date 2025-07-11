@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #(#represents number of arguments pass)
 if [ "$#" -ne 2 ]
 then
